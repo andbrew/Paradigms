@@ -1,9 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>Page Title</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+
+		<title>Activity 3</title>
 	</head>
 	<body>
-		<p>Foxtrot</p>
+		<h1>Basic form</h1>
+		<form action="http://173.255.215.218/paradigmas/actividad_dos.php" method="POST">
+			<p>Name:</p>
+			<input type="text" name="name" required>
+			<p>E-mail:</p>
+			<input type="email" name="email" required>
+			<p>Message:</p>
+			<textarea name="message" cols="50" rows="7" required></textarea>
+			<hr>
+			<input type="submit" value="send">
+		</form>
 	</body>
 </html>

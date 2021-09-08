@@ -1,0 +1,21 @@
+body {
+	background-color: WhiteSmoke;
+	font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+	color: DimGray;
+}
+
+p {
+	color: Gray;
+}
+
+input {
+	background-color: AntiqueWhite;
+}
+
+textarea {
+	background-color: Lavender;
+	font-variant: small-caps;
+}
