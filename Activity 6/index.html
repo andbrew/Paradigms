@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Activity 6</title>
+	</head>
+	<body>
+		<img src="img/off.png" id="lightBulb" onclick="swap();">
+		<script>
+		function swap() {
+			let lightBulb = document.getElementById("lightBulb");
+			if(lightBulb.src.match("img/off.png")) {
+				lightBulb.src = "img/on.png";
+			}
+			else {
+				lightBulb.src = "img/off.png";
+			}
+			return;
+		}
+		</script>
+	</body>
+</html>
