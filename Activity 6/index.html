@@ -6,9 +6,9 @@
 		<title>Activity 6</title>
 	</head>
 	<body>
-		<img src="img/off.png" id="lightBulb" onclick="swap();">
+		<img src="img/off.png" id="lightBulb" onclick="switchBulb();">
 		<script>
-		function swap() {
+		function switchBulb() {
 			let lightBulb = document.getElementById("lightBulb");
 			if(lightBulb.src.match("img/off.png")) {
 				lightBulb.src = "img/on.png";
